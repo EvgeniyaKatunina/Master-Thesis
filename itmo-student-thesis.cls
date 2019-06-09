@@ -401,7 +401,7 @@
 \newcommand{\foreignsourcesfiveyears}{\total{c@foreignsourcesfiveyears}}
 \newcommand{\foreignsourcestenyears}{\total{c@foreignsourcestenyears}}
 \newcommand{\foreignsourcesveryold}{\total{c@foreignsourcesveryold}}
-\newcommand{\internetsources}{\ifthenelse{\equal{\totvalue{c@internetsources}}{0}}{нет}{да, число ресурсов: \total{c@internetsources}}}
+\newcommand{\internetsources}{\ifthenelse{\equal{\totvalue{c@internetsources}}{0}}{да, число ресурсов: \total{citnum}}{нет}}
 
 %%% Команды для начала и конца секции с обзором
 \newcommand{\startrelatedwork}{\newrefsegment}
